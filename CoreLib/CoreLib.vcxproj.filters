@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{2fc2a752-b64e-4136-8bca-b95a64823df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{2ce5a581-8bd5-4a89-80b9-c37fb8bbb64b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\application.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\console.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\corefwd.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\lodepng.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\matrix3x3.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\matrix4x4.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\tinyxml2.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\vector2D.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\vector3D.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\vector4D.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\viewer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\color.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\misc.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\lodepng.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\matrix3x3.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\matrix4x4.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\tinyxml2.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\vector2D.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\vector3D.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\vector4D.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\viewer.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\color.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
