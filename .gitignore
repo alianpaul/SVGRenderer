@@ -1,6 +1,5 @@
 Debug/
 Renderer.sdf
 *.svg
-*.png
 Rasterization/Debug/
 CoreLib/Debug/
